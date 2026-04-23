@@ -1,168 +1,148 @@
-<!-- ===================== -->
-<!-- 💜 UNICORN PENTEST UI -->
+Вот аккуратно собранный README в твоём стиле (с unified вайбом, чистой структурой и готово для GitHub):
+
+---
+
 <!-- ===================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00cc,100:6a00ff&height=200&section=header&text=VULNERABLE%20LOGIN%20LAB&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%"/>
+<!-- 💜 PASSWORD SECURITY LAB -->
+
+<!-- ===================== -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00cc,100:000000&height=200&section=header&text=PASSWORD%20SECURITY%20LAB&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=ff00cc&size=18&center=true&vCenter=true&width=600&lines=unicorn-rm+pentest+lab;SQL+Injection+Demo;Web+Security+Practice;Think+like+an+attacker" />
+  <img src="https://readme-typing-svg.herokuapp.com/?color=ff00cc&size=18&center=true&vCenter=true&width=650&lines=Password+Strength+Analyzer;Entropy+Scoring+Engine;Dictionary+Attack+Detection;Secure+Generator+Lab" />
 </p>
 
 ---
 
+## 💀 SYSTEM BOOT
+
 ```bash
-[ SYSTEM ] unicornOS pentest module v1.0
-[ INIT   ] Booting vulnerable environment...
-[ LOAD   ] modules: flask, sqlite, auth
+[ SYSTEM ] booting security module...
+[ LOAD   ] password analyzer
+[ LOAD   ] dictionary scanner
+[ LOAD   ] generator engine
 [ STATUS ] READY
 ```
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
-> unicorn-rm
 
-$ role --current
-> Cybersecurity Student
+---
 
-$ lab --start
-> vulnerable login system loaded
+## ⚙️ HOW TO RUN
+
 ```bash
-⚙️ RUN PROJECT
 pip install -r requirements.txt
 python app.py
-> open http://127.0.0.1:5000
-> waiting for input...
-
-📸 DEMO
-🔐 Login Page
-✔ Normal Login
-💀 SQL Injection Attack
-```
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
-
-```bash
-🧪 ATTACK WALKTHROUGH
-[ STEP 1 ] normal login
-username: admin
-password: admin
-> ✔ ACCESS GRANTED
-[ STEP 2 ] wrong password
-username: admin
-password: 123
-> ❌ ACCESS DENIED
-[ STEP 3 ] SQL injection 💀
-username: admin
-password: ' OR '1'='1
-```
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
-
-```bash
-📜 ATTACK LOG
-[LOG] admin/admin        → SUCCESS
-[LOG] admin/123          → FAIL
-[LOG] admin/' OR '1'='1  → SUCCESS 💀
-
-🛡️ FIX (SECURE MODE)
-cursor.execute(
-    "SELECT * FROM users WHERE username=? AND password=?",
-    (user, password)
-)
-[ STATUS ] injection blocked ✔
-```
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
-
-
-```bash
-🧬 SKILLS USED
-> SQL Injection
-> Flask
-> SQLite
-> Web Security
-> Vulnerability Analysis
-> Secure Coding
 ```
 
-## 🎬 Live Demo ATTACK
+🌐 Open:
 
-### 1️⃣ Login Page
-<p align="center">
-  <img src="screenshots/login.png" width="600"/>
-</p>
-
----
-
-### 2️⃣ Injection Attack
-<p align="center">
-  <img src="screenshots/hack.png" width="600"/>
-</p>
+```
+http://127.0.0.1:5000
+```
 
 ---
 
-### 3️⃣ Access Granted
-<p align="center">
-  <img src="screenshots/success.png" width="600"/>
-</p>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+## 🔐 FEATURES
 
-## 🎬 Live Demo Secure
-
-### 1️⃣ Login Page
-<p align="center">
-  <img src="screenshots/loginsecure.png" width="600"/>
-</p>
+✔ password strength analysis
+✔ dictionary attack detection
+✔ entropy scoring engine
+✔ secure password generator
+✔ real-time UI updates
 
 ---
 
-### 2️⃣ Secure
-<p align="center">
-  <img src="screenshots/succsec-secure.png" width="600"/>
-</p>
-
----
-
-### 3️⃣ Attack
-<p align="center">
-  <img src="screenshots/attack.png" width="600"/>
-</p>
-
----
-
-### 3️⃣ SQL Secure
-<p align="center">
-  <img src="screenshots/failsql.png" width="600"/>
-</p>
-
-📦 Installation
+## 🧪 HOW IT WORKS
 
 ```bash
-git clone https://github.com/unicorn-rm/vuln-login.git
-cd vuln-login
+INPUT → user password
+STEP 1 → length analysis
+STEP 2 → character scan
+STEP 3 → entropy calculation
+STEP 4 → dictionary check
+STEP 5 → final score output
+```
 
-python3 -m venv venv
-source venv/bin/activate   # Linux/Mac
-# venv\Scripts\activate    # Windows
+---
+
+## 📊 LEVEL SYSTEM
+
+```
+0–39   → WEAK
+40–69  → MEDIUM
+70–100 → STRONG
+```
+
+---
+
+## 💀 DICTIONARY CHECK
+
+```bash
+"123456"  → BLOCKED
+"password" → BLOCKED
+"qwerty"   → BLOCKED
+```
+
+---
+
+## 🎲 PASSWORD GENERATOR
+
+```bash
+[a-z][A-Z][0-9][symbols]
+length: 12–16
+mode: secure random
+```
+
+---
+
+## 📸 INTERFACE
+
+<p align="center">
+  <img src="screenshots/analyzer.png" width="700"/>
+</p>
+
+---
+
+## 🛡️ SECURITY NOTES
+
+* no password storage
+* no logging
+* local execution only
+* fast API response (<100ms)
+
+---
+
+## 🚀 INSTALLATION (GIT CLONE)
+
+```bash
+git clone YOUR_REPO
+cd password-security-lab
 
 pip install -r requirements.txt
-▶️ Run application
-python3 app.py
-🌐 Default access
-http://127.0.0.1:5000
+python app.py
+```
+
+---
+
+## 🧬 TECH STACK
 
 ```bash
-========================================
-[ SYSTEM BREAK ]
-========================================
+> Python
+> Flask
+> Security Algorithms
+> Entropy Math
+> UI Real-time Updates
 ```
----
-
-## 🙌 Thank you for your attention
-
-Thanks for checking out this project!
-
-If you have any feedback, ideas, or suggestions — feel free to reach out or open an issue.
 
 ---
 
-👤 Author: unicorn  
-🐙 GitHub: https://github.com/unicorn-rm  
-🧠 Pseudonym used across projects: unicorn  
+## 👤 FOOTER
+
+👤 your name
+🐙 github profile
+🧠 cybersecurity / dev / tools
 
 ---
+
+💜 READY FOR SECURITY TESTING.
