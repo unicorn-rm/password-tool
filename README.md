@@ -14,7 +14,8 @@
   <img src="https://readme-typing-svg.herokuapp.com/?color=ff00cc&size=18&center=true&vCenter=true&width=650&lines=Password+Strength+Analyzer;Entropy+Scoring+Engine;Dictionary+Attack+Detection;Secure+Generator+Lab" />
 </p>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 💀 SYSTEM BOOT
 
@@ -67,7 +68,8 @@ STEP 4 → dictionary check
 STEP 5 → final score output
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 📊 LEVEL SYSTEM
 
@@ -99,7 +101,8 @@ length: 12–16
 mode: secure random
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 📸 INTERFACE
 
