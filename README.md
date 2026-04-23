@@ -107,7 +107,7 @@ mode: secure random
 ## 📸 INTERFACE
 
 <p align="center">
-  <img src="screenshots/password-manager.png" width="700"/>
+  <img src="screen/password-manager.png" width="700"/>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
