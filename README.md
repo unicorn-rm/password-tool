@@ -1,134 +1,136 @@
-Понял — тебе нужен **реально такой же вайб, как в твоём примере**: терминал, “SYSTEM BOOT”, агрессивный pentest-стиль, не “красивый README”, а именно **hacker lab aesthetic**.
+Окей, делаем более “злой” вариант — ближе к **CTF / red team / malware-lab эстетике**: меньше “красоты”, больше давления, системных сообщений, тревожного терминала и ощущения security tool, а не demo-приложения.
 
-Сделал тебе новый вариант — ближе к твоему стилю 👇
+Вот обновлённый README 👇
 
 ---
 
-````markdown
-<!-- ===================== -->
-<!-- 💜 UNICORN SECURITY LAB -->
-<!-- ===================== -->
+````markdown id="z7qk2m"
+<!-- ========================= -->
+<!-- ☠️ UNICORN RED TEAM LAB -->
+<!-- ========================= -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00cc,100:6a00ff&height=200&section=header&text=PASSWORD%20SECURITY%20LAB&fontSize=38&fontColor=ffffff&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,100:1a1a1a&height=200&section=header&text=PASSWORD%20BREACH%20ENGINE&fontSize=34&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=ff00cc&size=18&center=true&vCenter=true&width=650&lines=unicorn-security+password+analyzer;real-time+vulnerability+scanner;dictionary+attack+detector;secure+password+generator" />
+  <img src="https://readme-typing-svg.herokuapp.com/?color=ff0000&size=18&center=true&vCenter=true&width=700&lines=unicorn-redteam+security+module;password+exposure+analyzer;dictionary+breach+scanner;entropy+destruction+engine" />
 </p>
 
 ---
 
 ```bash
-[ SYSTEM ] unicorn-security core v2.3
-[ BOOT   ] initializing password analysis engine...
-[ LOAD   ] entropy module: OK
-[ LOAD   ] dictionary attack database: OK
-[ LOAD   ] scoring engine: OK
-[ STATUS ] READY FOR INPUT
+[ SYSTEM ] initializing RED TEAM LAB environment...
+[ WARN   ] security policies disabled (DEV MODE)
+[ LOAD   ] password entropy engine .......... OK
+[ LOAD   ] breach dictionary database ....... OK
+[ LOAD   ] scoring system .................... OK
+[ STATUS ] HOSTILE ANALYSIS READY
 ````
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,100:000000&height=3"/>
 
-```bash
-$ run password-tool
-> launching real-time analyzer...
-> waiting for user input...
+```bash id="k8wq3p"
+$ ./password-tool --scan
+> input stream open...
+> monitoring keystrokes...
+> analyzing credential strength in real-time...
 ```
 
 ---
 
-## ⚙️ EXECUTION
+## ☠️ SYSTEM CAPABILITIES
 
-```bash
+```bash id="v9c2lm"
+[ MODULE ] real-time password interception
+[ MODULE ] dictionary breach detection
+[ MODULE ] entropy collapse analysis
+[ MODULE ] brute-force time estimation
+[ MODULE ] security classification engine
+```
+
+---
+
+## ⚙️ EXECUTION SEQUENCE
+
+```bash id="q4z8ax"
 pip install -r requirements.txt
 python app.py
 ```
 
-```bash
-[ SERVER ] running on http://127.0.0.1:5000
-[ STATUS ] LIVE 🔴
+```bash id="2xk9fd"
+[ SERVER ] http://127.0.0.1:5000
+[ STATUS ] LISTENING FOR INPUT 🔴
+[ MODE   ] UNSAFE ANALYSIS ACTIVE
 ```
 
 ---
 
-## 🔐 SECURITY MODULES
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,100:000000&height=3"/>
 
-```bash
-✔ real-time password analysis engine
-✔ strength scoring system (0–100)
-✔ weak / medium / strong classifier
-✔ dictionary attack detection module
-✔ entropy estimation system
-✔ secure password generator
+## 💀 PASSWORD BREACH ANALYSIS PIPELINE
+
+```bash id="h1p7sd"
+[ INPUT CAPTURED ]
+
+→ stage 1: length fingerprinting
+→ stage 2: character set analysis
+→ stage 3: entropy degradation
+→ stage 4: known-breach comparison
+→ stage 5: attack surface evaluation
+
+[ RESULT GENERATED ]
 ```
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+## 📊 SECURITY CLASSIFICATION
 
-## 🧪 PASSWORD ANALYSIS PIPELINE
-
-```bash
-[ INPUT ] user password detected
-
-[ STEP 1 ] length analysis
-[ STEP 2 ] character entropy scan
-[ STEP 3 ] regex complexity validation
-[ STEP 4 ] dictionary match check
-[ STEP 5 ] score calculation engine
-
-[ OUTPUT ] security rating generated
+```bash id="w3k9vn"
+0–39   → COMPROMISED ❌
+40–69  → WEAK VECTOR ⚠️
+70–100 → RESISTANT ✔
 ```
 
 ---
 
-## 📊 SECURITY LEVELS
+## 💀 DICTIONARY BREACH ENGINE
 
-```bash
-0–39   → WEAK ❌  (vulnerable)
-40–69  → MEDIUM ⚠️ (partially secure)
-70–100 → STRONG ✔ (secure)
+```bash id="b8x2qz"
+[ SCAN INITIATED ] common_passwords.txt
+
+MATCH FOUND:
+
+"123456"   → EXPOSED ❌
+"password" → EXPOSED ❌
+"admin"    → EXPOSED ❌
+
+STATUS: CREDENTIALS COMPROMISED
 ```
 
 ---
 
-## 💀 DICTIONARY ATTACK DETECTION
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,100:000000&height=3"/>
 
-```bash
-[ SCAN ] checking common_passwords.txt...
+## 🎲 PAYLOAD GENERATOR
 
-RESULTS:
-
-"123456"   → MATCH FOUND ❌
-"password" → MATCH FOUND ❌
-"qwerty"   → MATCH FOUND ❌
-
-STATUS: CRITICAL WEAK PASSWORD
-```
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
-
-## 🎲 PASSWORD GENERATOR MODULE
-
-```bash
-[ GENERATOR INITIALIZED ]
+```bash id="m5v8qp"
+[ GENERATING SECURE PAYLOAD ]
 
 charset:
-[a-z] [A-Z] [0-9] [!@#$%^&*]
+[a-z][A-Z][0-9][!@#$%^&*]
 
-default length: 12–16 chars
+mode: cryptographically random
+length: 12–16
 
-output: secure random password
+OUTPUT: STABLE CREDENTIAL GENERATED
 ```
 
 ---
 
-## 📸 LIVE LAB OUTPUT
+## 📸 LAB OUTPUT
 
-### 🔐 Analyzer
+### 🔴 ANALYZER ACTIVE
 
 <p align="center">
   <img src="screenshots/analyzer.png" width="650"/>
@@ -136,7 +138,7 @@ output: secure random password
 
 ---
 
-### 💀 Weak Password Detected
+### 💀 BREACH DETECTED
 
 <p align="center">
   <img src="screenshots/weak.png" width="650"/>
@@ -144,7 +146,7 @@ output: secure random password
 
 ---
 
-### 🟢 Strong Password
+### 🟢 RESISTANT PASSWORD
 
 <p align="center">
   <img src="screenshots/strong.png" width="650"/>
@@ -152,7 +154,7 @@ output: secure random password
 
 ---
 
-### 🎲 Generator Output
+### 🎲 PAYLOAD OUTPUT
 
 <p align="center">
   <img src="screenshots/generator.png" width="650"/>
@@ -160,40 +162,39 @@ output: secure random password
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,100:000000&height=3"/>
 
-## 🛡️ SECURITY POLICY
+## 🛡️ SECURITY STATUS
 
-```bash
-[ POLICY ] no password storage
-[ POLICY ] no server logging
-[ POLICY ] local execution only
-[ POLICY ] fast API response (<100ms)
+```bash id="c2n7fd"
+[ WARNING ] no credential persistence
+[ WARNING ] local environment only
+[ WARNING ] no encryption layer (DEV MODE)
+[ WARNING ] logging disabled
 ```
 
 ---
 
-## 🧠 TECH STACK
+## 🧠 ATTACK SURFACE
 
-```bash
-> Python (Flask backend)
-> JavaScript (fetch API)
-> HTML / CSS (glass UI)
-> Regex security engine
-> entropy-based scoring
+```bash id="p9x1lm"
+> regex analysis engine
+> entropy scoring model
+> dictionary comparison system
+> frontend input vector
+> real-time evaluation channel
 ```
 
 ---
 
-## 🚀 INSTALLATION
+## 🚀 DEPLOYMENT
 
-```bash
+```bash id="t6k3qw"
 git clone https://github.com/unicorn-rm/password-tool.git
 cd password-tool
 
 python3 -m venv venv
-source venv/bin/activate   # Linux / Mac
-# venv\Scripts\activate    # Windows
+source venv/bin/activate
 
 pip install -r requirements.txt
 python app.py
@@ -201,41 +202,47 @@ python app.py
 
 ---
 
-```bash
-[ ACCESS ]
+```bash id="z1v8cn"
+[ ACCESS POINT ]
 http://127.0.0.1:5000
 ```
 
 ---
 
-```bash
+```bash id="r4m2qs"
 ========================================
-[ SYSTEM STATUS: OPERATIONAL ✔ ]
+[ SYSTEM STATUS: HOSTILE READY ✔ ]
+[ SECURITY LEVEL: RED TEAM MODE ]
 ========================================
 ```
 
 ---
 
-## 🙌 END OF TRANSMISSION
+## ☠️ END OF TRANSMISSION
 
-```bash
-[ SESSION CLOSED ]
-[ SECURITY LAB ACTIVE ]
+```bash id="x7p3ld"
+connection terminated...
+monitoring continues...
 ```
 
 👤 unicorn
 🐙 github: [https://github.com/unicorn-rm](https://github.com/unicorn-rm)
-🧠 security research / pentesting / python tooling
+🧠 red team / security research / offensive tooling
 
 ```
 
 ---
 
-Если хочешь, я могу дальше сделать тебе ещё более “жёсткий” вариант:
+Если хочешь следующий шаг, я могу сделать ещё более жёстко:
 
-- 💀 :contentReference[oaicite:0]{index=0}
-- 🧠 :contentReference[oaicite:1]{index=1}
-- 🌐 или :contentReference[oaicite:2]{index=2}
+### 💀 1. “LIVE HACK SIMULATION README”
+- будто пароль реально взламывается в реальном времени
 
-Скажи — и сделаем ещё более злой стиль.
+### 🧠 2. CTF-style GitHub profile
+- весь профиль как киберлаборатория
+
+### 🔥 3. “malware terminal aesthetic”
+- максимально агрессивный интерфейс как у threat actor tools (без реального вреда, только стиль)
+
+Скажи, и я доведу это до уровня топового security showcase на GitHub.
 ```
