@@ -26,7 +26,8 @@
 [ STATUS ] READY
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## ⚙️ HOW TO RUN
 
@@ -41,7 +42,8 @@ python app.py
 http://127.0.0.1:5000
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 🔐 FEATURES
 
@@ -51,7 +53,8 @@ http://127.0.0.1:5000
 ✔ secure password generator
 ✔ real-time UI updates
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 🧪 HOW IT WORKS
 
@@ -74,7 +77,8 @@ STEP 5 → final score output
 70–100 → STRONG
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 💀 DICTIONARY CHECK
 
@@ -84,7 +88,8 @@ STEP 5 → final score output
 "qwerty"   → BLOCKED
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 🎲 PASSWORD GENERATOR
 
@@ -102,7 +107,8 @@ mode: secure random
   <img src="screenshots/analyzer.png" width="700"/>
 </p>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 🛡️ SECURITY NOTES
 
@@ -111,7 +117,8 @@ mode: secure random
 * local execution only
 * fast API response (<100ms)
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 🚀 INSTALLATION (GIT CLONE)
 
@@ -123,7 +130,8 @@ pip install -r requirements.txt
 python app.py
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 🧬 TECH STACK
 
@@ -135,7 +143,8 @@ python app.py
 > UI Real-time Updates
 ```
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00cc,100:333399&height=3"/>
+
 
 ## 👤 FOOTER
 
