@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Password Security Analyzer</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="card glass">
+
+        <h1>🔐 Password Security Analyzer</h1>
+        <p class="subtitle">Real-time password strength evaluation</p>
+
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+
+        <div class="meter">
+            <div id="bar"></div>
+        </div>
+
+        <div id="status" class="status">Waiting for input...</div>
+
+        <ul id="feedback"></ul>
+
+        <button onclick="generatePassword()">Generate Secure Password</button>
+
+        <input type="text" id="generated" readonly placeholder="Generated password will appear here">
+
+    </div>
+
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

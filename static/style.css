@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 420px;
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.glass {
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.08);
+    color: white;
+}
+
+.meter {
+    width: 100%;
+    height: 8px;
+    background: #333;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#bar {
+    height: 8px;
+    width: 0%;
+    background: red;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.status {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+ul {
+    text-align: left;
+    font-size: 13px;
+    margin-top: 10px;
+    padding-left: 20px;
+    opacity: 0.9;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#generated {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255,255,255,0.08);
+    color: white;
+}
