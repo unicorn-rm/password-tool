@@ -139,8 +139,8 @@ python app.py
 
 ## 👤 FOOTER
 
-👤 your name
-🐙 github profile
+👤 unicorn
+🐙 github profile - unicorn-rm
 🧠 cybersecurity / dev / tools
 
 ---
